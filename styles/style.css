@@ -9,10 +9,23 @@
     margin: 0%;
     padding: 0%;
 }
-html{
+html {
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
     background-color: var(--primary-black);
     color: var(--primary-white);
     scroll-behavior: smooth;
+}
+section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+}
+.presentation__photo {
+    border-radius: 50%;
 }
