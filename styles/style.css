@@ -1,8 +1,9 @@
 :root {
-    --primary-black: #222222ff;
     --primary-blue: #1a75ffff;
     --primary-white: #ffffffff;
-    --secondary-black: #3e3e3eff;
+    --primary-black: black;
+    --secondary-black: #222222ff;
+    --tertiary-black: #3e3e3eff;
 }
 *{
     box-sizing: border-box;
@@ -17,15 +18,21 @@ html {
     scroll-behavior: smooth;
 }
 section{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    min-width: 320px;
-    height: 334px;
-    text-align: center;
+    background-color: var(--secondary-black);
+    border-radius: 1rem;
+    margin: 2.5px 5px;
 }
 .presentation__photo {
+    width: 200px;
     border-radius: 50%;
+}
+.presentation__actions--contact {
+    background-color: var(--primary-blue);
+    color: var(--primary-white);
+    width: 45%;
+}
+.presentation__actions--message {
+    background-color: var(--tertiary-black);
+    color: var(--primary-white);
+    width: 45%;
 }
