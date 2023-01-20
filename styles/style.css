@@ -17,14 +17,27 @@ html {
     color: var(--primary-white);
     scroll-behavior: smooth;
 }
-section{
+section {
     background-color: var(--secondary-black);
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     margin: 2.5px 5px;
+}
+.presentation {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
 }
 .presentation__photo {
     width: 200px;
     border-radius: 50%;
+    align-self: center;
+}
+.presentation__content {
+    margin: 10px 30px;
 }
 .presentation__actions--contact {
     background-color: var(--primary-blue);
