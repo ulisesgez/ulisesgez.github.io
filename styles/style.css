@@ -17,6 +17,21 @@ html {
     color: var(--primary-white);
     scroll-behavior: smooth;
 }
+h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+h2 {
+    font-size: 2.0rem;
+    font-weight: bold;
+}
+h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+p {
+    font-size: 1.4rem;
+}
 section {
     background-color: var(--secondary-black);
     border-radius: 10px;
@@ -28,7 +43,7 @@ section {
     flex-direction: column;
     justify-content: center;
     min-width: 310px;
-    height: 360px;
+    height: 428px;
     text-align: center;
 }
 .presentation__photo {
@@ -36,8 +51,11 @@ section {
     border-radius: 50%;
     align-self: center;
 }
+.presentation__me {
+    margin: 10px 0px 0px 0px;
+}
 .presentation__content {
-    margin: 10px 30px;
+    margin: 10px 10px;
 }
 .presentation__actions button {
     color: var(--primary-white);
