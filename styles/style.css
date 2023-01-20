@@ -19,15 +19,15 @@ html {
 }
 section {
     background-color: var(--secondary-black);
-    border-radius: 0.5rem;
-    margin: 2.5px 5px;
+    border-radius: 10px;
+    margin: 5px 5px 15px 5px;
 }
 .presentation {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-width: 320px;
+    min-width: 310px;
     height: 360px;
     text-align: center;
 }
@@ -39,23 +39,20 @@ section {
 .presentation__content {
     margin: 10px 30px;
 }
-.presentation__actions--contact {
+.presentation__actions button {
+    color: var(--primary-white);
     border-radius: 5px;
     margin: 2.5px;
     border: none;
-    background-color: var(--primary-blue);
-    color: var(--primary-white);
     width: 45%;
     height: 30px;
+    max-width: 230px;
+}
+.presentation__actions--contact {
+    background-color: var(--primary-blue);
 }
 .presentation__actions--message {
-    border-radius: 5px;
-    margin: 2.5px;
-    border: none;
     background-color: var(--tertiary-black);
-    color: var(--primary-white);
-    width: 45%;
-    height: 30px;
 }
 .presentation__divisions {
     width: 90%;
