@@ -32,6 +32,9 @@ h3 {
 p {
     font-size: 1.4rem;
 }
+span {
+    font-size: 1.4rem;
+}
 section {
     background-color: var(--secondary-black);
     border-radius: 10px;
@@ -83,12 +86,29 @@ section {
     flex-direction: column;
     justify-content: center;
     min-width: 310px;
-    height: 360px;
+    height: 220px;
     text-align: center;
 }
 .about__divisions {
     width: 90%;
     align-self: center;
+    margin: 5px 5px;
+}
+.about__socialmedia {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 5px;
+}
+.about__picture {
+    width: 20%;
+}
+.about__link {
+    width: 80%;
+    text-decoration: none;
+    color: var(--primary-white);
+    display: flex;
+    justify-content: flex-start;
 }
 .skills {
     position: relative;
@@ -109,15 +129,6 @@ section {
     text-align: center;
 }
 .education {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-width: 310px;
-    height: 360px;
-    text-align: center;
-}
-.about {
     position: relative;
     display: flex;
     flex-direction: column;
