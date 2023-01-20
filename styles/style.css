@@ -40,12 +40,21 @@ section {
     margin: 10px 30px;
 }
 .presentation__actions--contact {
+    border-radius: 5px;
+    margin: 2.5px;
+    border: none;
     background-color: var(--primary-blue);
     color: var(--primary-white);
     width: 45%;
+    height: 30px;
 }
 .presentation__actions--message {
+    border-radius: 5px;
+    margin: 2.5px;
+    border: none;
     background-color: var(--tertiary-black);
     color: var(--primary-white);
     width: 45%;
+    height: 30px;
+
 }
