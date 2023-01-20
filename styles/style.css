@@ -59,3 +59,58 @@ section {
     margin: 10px 0px 5px 0px;
     align-self: center;
 }
+.about {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 310px;
+    height: 360px;
+    text-align: center;
+}
+.skills {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 310px;
+    height: 360px;
+    text-align: center;
+}
+.experience {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 310px;
+    height: 360px;
+    text-align: center;
+}
+.education {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 310px;
+    height: 360px;
+    text-align: center;
+}
+.about {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 310px;
+    height: 360px;
+    text-align: center;
+}
+.certifications {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 310px;
+    height: 360px;
+    text-align: center;
+    margin: 5px 5px;
+}
