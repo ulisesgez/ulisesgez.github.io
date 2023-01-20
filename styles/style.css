@@ -26,7 +26,7 @@ h2 {
     font-weight: bold;
 }
 h3 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: bold;
 }
 p {
@@ -43,11 +43,11 @@ section {
     flex-direction: column;
     justify-content: center;
     min-width: 310px;
-    height: 428px;
+    height: 480px;
     text-align: center;
 }
 .presentation__photo {
-    width: 200px;
+    width: 250px;
     border-radius: 50%;
     align-self: center;
 }
@@ -74,7 +74,7 @@ section {
 }
 .presentation__divisions {
     width: 90%;
-    margin: 10px 0px 5px 0px;
+    margin: 15px 0px -15px 0px;
     align-self: center;
 }
 .about {
@@ -85,6 +85,10 @@ section {
     min-width: 310px;
     height: 360px;
     text-align: center;
+}
+.about__divisions {
+    width: 90%;
+    align-self: center;
 }
 .skills {
     position: relative;
