@@ -1,0 +1,24 @@
+:root {
+    --primary-blue: #1a75ffff;
+    --primary-white: #ffffffff;
+    --primary-black: black;
+    --secondary-black: #222222ff;
+    --tertiary-black: #3e3e3eff;
+}
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0%;
+    padding: 0%;
+    outline: none;
+    border: none;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+h1 {
+    font-size: 2.6rem;
+    font-weight: bold;
+}
