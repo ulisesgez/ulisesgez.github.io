@@ -140,6 +140,7 @@ section {
         transform-origin: top;
         transform: scaleY(0);
         opacity: 0;
+        transition: .2s linear;
     }
     header .navbar a {
         display: block;
@@ -160,6 +161,12 @@ section {
     .inicio .image img {
         margin: 0%;
         width: 100%;
+    }
+    .inicio .content h3 {
+        font-size: 3.5rem;
+    }
+    .inicio .content p {
+        font-size: 1.5rem;
     }
 }
 @media (max-width:450px) {
