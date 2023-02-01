@@ -14,10 +14,10 @@
     outline: none;
     border: none;
     text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
 }
 html {
     font-size: 62.5%;
-    font-family: 'Poppins', sans-serif;
     overflow: hidden;
     scroll-behavior: smooth;
 }
@@ -55,7 +55,9 @@ header .navbar a:hover {
 header input {
     display: none;
 }
-header svg {
+header label {
+    font-size: 3rem;
+    color: var(--primary-green);
     cursor: pointer;
     visibility: hidden;
     opacity: 0;
@@ -66,7 +68,7 @@ header svg {
     }
 }
 @media (max-width:768px) {
-    header svg {
+    header label {
         visibility: visible;
         opacity: 1;
     }
@@ -90,6 +92,10 @@ header svg {
     }
     header input:checked ~ .navbar {
         transform: scaleY(1);
+        opacity: 1;
+    }
+    header input:checked ~ label::before {
+        content: '\f00d';
         opacity: 1;
     }
 }
