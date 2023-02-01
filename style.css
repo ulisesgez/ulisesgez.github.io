@@ -62,6 +62,24 @@ header label {
     visibility: hidden;
     opacity: 0;
 }
+section {
+    min-height: 100vh;
+    padding: 0 9%;
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+
+}
+.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://images.pexels.com/photos/1353938/pexels-photo-1353938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.inicio .image img {
+    width: 40vw;
+}
 @media (max-width:1200px) {
     html {
         font-size: 55%;
