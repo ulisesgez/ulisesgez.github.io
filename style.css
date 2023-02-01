@@ -18,7 +18,7 @@
 }
 html {
     font-size: 62.5%;
-    overflow: hidden;
+    overflow: scroll;
     scroll-behavior: smooth;
 }
 body{
