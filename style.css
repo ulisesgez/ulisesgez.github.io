@@ -335,6 +335,66 @@ section {
 .precios .caja-contenedor .caja ul li .fa-solid .fa-check {
     color: var(--secondary-green);
 }
+.contactos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 4rem;
+}
+.contactos .image {
+    flex: 1 1 40rem;
+}
+.contactos .image img {
+    width: 70%;
+    padding: 2rem;
+}
+.contactos form {
+    flex: 1 1 40rem;
+    padding: 2rem 3rem;
+    border: .1rem solid rgba(0, 0, 0, .2);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    background: var(--primary-white);
+}
+.contactos .heading {
+    text-align: left;
+    padding: 0%;
+    padding-bottom: 2rem;
+}
+.contactos form .inputcaja {
+    position: relative;
+}
+.contactos form .inputcaja input, .contactos form .inputcaja textarea {
+    width: 100%;
+    background: none;
+    color: var(--primary-black);
+    margin: 1.5rem 0%;
+    padding: .5rem 0;
+    font-size: 1.7rem;
+    border-bottom: .1rem solid rgba(0, 0, 0, .1);
+    text-transform: none;
+}
+.contactos form .inputcaja textarea {
+    resize: none;
+    height: 13rem;
+}
+.contactos form .inputcaja label {
+    position: absolute;
+    top: 1.7rem;
+    left: 0%;
+    font-size: 1.7rem;
+    color: var(--primary-black);
+    transition: .2s linear;
+}
+.contactos form .inputcaja input:focus ~ label,
+.contactos form .inputcaja input:valid ~ label
+.contactos form .inputcaja textarea:focus ~ label
+.contactos form .inputcaja textarea:valid ~ label {
+    top: -.5rem;
+    font-size: 1.5rem;
+    color: var(--secondary-green);
+}
 @media (max-width:1200px) {
     html {
         font-size: 55%;
