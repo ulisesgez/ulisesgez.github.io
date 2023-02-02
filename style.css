@@ -172,14 +172,14 @@ section {
     flex-wrap: wrap;
 }
 .acerca_de .columna .image {
-    flex: 1 1 30rem;
+    flex: 1 1 40rem;
 }
 .acerca_de .columna .image img {
     border-radius: 50%;
     width: 90%;
 }
 .acerca_de .columna .content {
-    flex: 1 1 30rem;
+    flex: 1 1 40rem;
 }
 .acerca_de .columna .content h3 {
     font-size: 3rem;
@@ -192,6 +192,56 @@ section {
 }
 .acerca_de .columna .content .buttons a:last-child {
     margin-left: 2rem;
+}
+.suscribete {
+    text-align: center;
+    padding: 5rem 1rem;
+    background: url(https://static.vecteezy.com/system/resources/previews/006/726/244/non_2x/nature-of-green-leaf-in-garden-at-summer-natural-green-leaves-plants-using-as-spring-background-cover-page-greenery-environment-ecology-wallpaper-free-photo.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.suscribete h3 {
+    color: var(--primary-black);
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.suscribete p {
+    color: var(--primary-black);
+    font-size: 1.6rem;
+    margin: 2rem auto;
+    width: 70rem;
+}
+.suscribete form {
+    display: flex;
+    max-width: 70rem;
+    border: .2rem solid whitesmoke;
+    padding: .5rem;
+    border-radius: 5rem;
+    margin: 2rem auto;
+    height: 5.5rem;
+}
+.suscribete form input[type ="email"] {
+    padding: 0 2rem;
+    font-size: 1.7rem;
+    background: none;
+    width: 100%;
+    color: var(--primary-green);
+    text-transform: none;
+}
+.suscribete form input[type ="email"]::placeholder {
+    color: var(--primary-green);
+    text-transform: capitalize;
+    background: none;
+}
+.suscribete form input[type="submit"] {
+    background: var(--secondary-green);
+    width: 20rem;
+    font-size: 1.7rem;
+    border-radius: 5rem;
+    cursor: pointer;
+}
+.suscribete form input[type="submit"]:hover {
+    color: var(--primary-green);
 }
 @media (max-width:1200px) {
     html {
@@ -252,6 +302,9 @@ section {
     }
     .acerca_de {
         background: right;
+    }
+    .suscribete p{
+        width: auto;
     }
 }
 @media (max-width:450px) {
