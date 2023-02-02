@@ -156,9 +156,53 @@ section {
     color: var(--primary-black);
     padding: 1rem 0;
 }
+.detalles .caja-contenedor .caja img {
+    height: 15rem;
+}
+.acerca_de {
+    background: url(https://static.vecteezy.com/system/resources/previews/010/330/732/non_2x/green-nature-color-watercolor-paint-stain-background-circle-free-png.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 3rem;
+}
+.acerca_de .columna {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.acerca_de .columna .image {
+    flex: 1 1 30rem;
+}
+.acerca_de .columna .image img {
+    border-radius: 50%;
+    width: 90%;
+}
+.acerca_de .columna .content {
+    flex: 1 1 30rem;
+}
+.acerca_de .columna .content h3 {
+    font-size: 3rem;
+    color: var(--primary-green);
+}
+.acerca_de .columna .content p {
+    font-size: 1.5rem;
+    color: var(--primary-black);
+    padding: 1rem 0%;
+}
+.acerca_de .columna .content .buttons a:last-child {
+    margin-left: 2rem;
+}
 @media (max-width:1200px) {
     html {
         font-size: 55%;
+    }
+}
+@media (max-width:990px) {
+    section {
+        padding: 0 3%;
+        padding-top: 7.5rem;
+        padding-bottom: 2rem;
     }
 }
 @media (max-width:768px) {
@@ -206,9 +250,19 @@ section {
     .inicio .content p {
         font-size: 1.5rem;
     }
+    .acerca_de {
+        background: right;
+    }
 }
 @media (max-width:450px) {
     html {
         font-size: 49%;
+    }
+    .acerca_de .columna .content .buttons a {
+        width: 100%;
+        text-align: center;
+    }
+    .acerca_de .columna .content .buttons a:last-child {
+        margin: 1rem 0%;
     }
 }
