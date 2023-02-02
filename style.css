@@ -289,6 +289,52 @@ section {
     font-size: 1.5rem;
     padding: 1rem;
 }
+.precios .caja-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.precios .caja-contenedor .caja {
+    flex: 1 1 25rem;
+    margin: 1rem;
+    padding: 1rem;
+    background: var(--primary-white);
+    border: .1rem solid rgba(0, 0, 0, .2);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.precios .caja-contenedor .caja:nth-child(2),
+.precios .caja-contenedor .caja:hover {
+    border: .2rem solid --secondary-green; 
+}
+.precios .caja-contenedor .caja .titulo {
+    color: var(--primary-green);
+    font-size: 2.5rem;
+    padding-top: 1rem;
+}
+.precios .caja-contenedor .caja .tipos {
+    font-size: 4rem;
+    color: var(--secondary-green);
+    padding: 1rem 0%;
+}
+.precios .caja-contenedor .caja .tipos span {
+    font-size: 2rem;
+}
+.precios .caja-contenedor .caja ul {
+    padding: 1rem 0%;
+    list-style: none;
+}
+.precios .caja-contenedor .caja ul li {
+    font-size: 1.7rem;
+    color: var(--primary-black);
+    padding: .5rem 0%;
+}
+.precios .caja-contenedor .caja ul li .fa-solid .fa-check {
+    color: var(--secondary-green);
+}
 @media (max-width:1200px) {
     html {
         font-size: 55%;
