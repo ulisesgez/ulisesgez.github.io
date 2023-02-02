@@ -243,6 +243,52 @@ section {
 .suscribete form input[type="submit"]:hover {
     color: var(--primary-green);
 }
+.opiniones .caja-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.opiniones .caja-contenedor .caja {
+    background: var(--primary-white);
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    border: .1rem solid rgba(0, 0, 0, .2);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    flex: 1 1 30rem;
+    border-radius: .5rem;
+}
+.opiniones .caja-contenedor .caja .fa-duotone fa-rectangle-terminal {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    font-size: 8rem;
+    color: var(--secondary-green);
+    opacity: .3;
+}
+.opiniones .caja-contenedor .caja .fa-duotone .user img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 8rem;
+    width: 8rem;
+    margin-top: 2rem;
+}
+.opiniones .caja-contenedor .caja .fa-duotone .user h3 {
+    color: var(--primary-green);
+    font-size: 2rem;
+}
+.opiniones .caja-contenedor .caja .user .fa-solid fa-star i {
+    color: var(--primary-green);
+    font-size: 1.5rem;
+    padding: 1rem 0%;
+}
+.opiniones .caja-contenedor .caja .comentarios {
+    color: var(--primary-black);
+    font-size: 1.5rem;
+    padding: 1rem;
+}
 @media (max-width:1200px) {
     html {
         font-size: 55%;
