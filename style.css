@@ -1,7 +1,9 @@
 :root {
     --primary-black: #191A19;
-    --primary-green: #1E5128;
-    --secondary-green: #4E9F3D;
+    --secondary-black: #2e2e2e;
+    --tertiary-black: #1f1f1f;
+    --primary-green: #00dd2c;
+    --secondary-green: #21c700;
     --tertiary-green: #D8E9A8;
     --primary-white: #ffffff;
     --primary-gradient: linear-gradient(90deg, var(--secondary-green), var(--primary-black));
@@ -22,14 +24,14 @@ html {
     scroll-behavior: smooth;
 }
 body{
-    background-color: var(--primary-white);
+    background-color: var(--secondary-black);
 }
 header {
     position: fixed;
     top: 0%;
     left: 0%;
     width: 100%;
-    background-color: var(--primary-white);
+    background-color: var(--tertiary-black);
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
     padding: 2rem 9%;
     display: flex;
