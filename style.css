@@ -41,7 +41,7 @@ header {
 }
 header .logo {
     font-size: 2rem;
-    color: var(--secondary-green);
+    color: var(--primary-green);
 }
 header .logo span {
     color: var(--primary-green);
@@ -49,10 +49,10 @@ header .logo span {
 header .navbar a {
     font-size: 1.8rem;
     margin-left: 2rem;
-    color: var(--primary-green);
+    color: var(--primary-white);
 }
 header .navbar a:hover {
-    color: var(--secondary-green);
+    color: var(--primary-green);
 }
 header input {
     display: none;
